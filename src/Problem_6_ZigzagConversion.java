@@ -10,7 +10,7 @@ public class Problem_6_ZigzagConversion {
         while (i < s.length()) {
 
             if (index == numRows) index = -numRows + 2;
-            arr[Math.abs(index) % numRows] = arr[Math.abs(index) % numRows] + s.charAt(i);
+            arr[Math.abs(index) % numRows] += s.charAt(i);
             index++;
             i++;
         }
