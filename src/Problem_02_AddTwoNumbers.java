@@ -1,4 +1,4 @@
-public class Problem_2_AddTwoNumbers {
+public class Problem_02_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int n1 = 0, n2 = 0,kat=1;
         while (l1 != null || l2 != null) {
