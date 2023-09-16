@@ -1,4 +1,4 @@
-public class Problem_3_LongestSubstringWithoutRepeatingCharacters {
+public class Problem_03_LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         int beg=0,end=0, max=0;
         for (int i=0; i<s.length(); i++){
